@@ -7,11 +7,11 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'Rohail33/RealKing-kernel-SM8250'
+        default: 'UtsavBalar1231/kernel_xiaomi_sm8250'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'apollo-mi'
+        default: 'android12-stable'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
@@ -23,11 +23,11 @@ on:
       KERNEL_FILE:
         description: 'Your kernel out image name'
         required: true
-        default: 'Image.gz'
+        default: 'Image'
       CLANG_URL:
         description: 'Clang URL'
         required: true
-        default: 'https://codeberg.org/Mandi-Sa/clang/archive/amd64-kernel-arm-20230205.tar.gz'
+        default: 'https://github.com/ZyCromerZ/Clang/releases/download/17.0.0-20230211-release/Clang-17.0.0-20230211.tar.gz'
       BUILD_EXTRA_COMMAND:
         description: 'Extra build commands(e.g. LLVM=1 LLVM_IAS=1)'
         required: false
